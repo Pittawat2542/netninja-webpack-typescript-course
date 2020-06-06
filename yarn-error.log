@@ -1,0 +1,36 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/bin/yarn add --dev webpack webpack-cli ts-loader
+
+PATH: 
+  /usr/local/opt/ruby/bin:/usr/local/sbin:/Users/pittawattaveekitworachai/.composer/vendor/bin:/Users/pittawattaveekitworachai/Development/google-cloud-sdk/bin:/Users/pittawattaveekitworachai/.cargo/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/usr/local/MacGPG2/bin:/Library/Apple/usr/bin:/Library/Frameworks/Mono.framework/Versions/Current/Commands:/Applications/Wireshark.app/Contents/MacOS:/usr/local/opt/ruby/bin:/usr/local/sbin:/Users/pittawattaveekitworachai/.composer/vendor/bin:/Users/pittawattaveekitworachai/Development/google-cloud-sdk/bin:/Users/pittawattaveekitworachai/.cargo/bin:/Users/pittawattaveekitworachai/Development/flutter/bin:/usr/local/bin/composer:/Users/pittawattaveekitworachai/.config/composer/vendor/bin:/Users/pittawattaveekitworachai/Library/Android/sdk/emulator:/Users/pittawattaveekitworachai/Library/Android/sdk/tools:/Users/pittawattaveekitworachai/Library/Android/sdk/tools/bin:/Users/pittawattaveekitworachai/Library/Android/sdk/platform-tools:/Users/pittawattaveekitworachai/Development/flutter/bin:/usr/local/bin/composer:/Users/pittawattaveekitworachai/.config/composer/vendor/bin:/Users/pittawattaveekitworachai/Library/Android/sdk/emulator:/Users/pittawattaveekitworachai/Library/Android/sdk/tools:/Users/pittawattaveekitworachai/Library/Android/sdk/tools/bin:/Users/pittawattaveekitworachai/Library/Android/sdk/platform-tools
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.16.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/pittawattaveekitworachai/Projects/Courses/YouTube/NetNinja/webpack-typscript/package.json: Unexpected token } in JSON at position 97
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "webpack-typscript",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
